@@ -1,0 +1,12 @@
+Source: ros-hydro-create-gazebo-plugins
+Section: misc
+Priority: extra
+Maintainer: Nate Koenig <nate@osrfoundation.org>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-create-node, ros-hydro-gazebo-ros, ros-hydro-geometry-msgs, ros-hydro-nav-msgs, ros-hydro-roscpp, ros-hydro-sensor-msgs
+Homepage: http://ros.org/wiki/create_gazebo_plugins
+Standards-Version: 3.9.2
+
+Package: ros-hydro-create-gazebo-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-create-node, ros-hydro-gazebo-ros, ros-hydro-geometry-msgs, ros-hydro-nav-msgs, ros-hydro-roscpp, ros-hydro-sensor-msgs
+Description: Gazebo plugins for the iRobot Create
