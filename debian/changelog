@@ -1,8 +1,0 @@
-ros-hydro-create-gazebo-plugins (2.1.0-4raring) raring; urgency=high
-
-  * Fully catkinized
-  * First release version for ROS Hydro
-
- -- Nate Koenig <nate@osrfoundation.org>  Wed, 17 Jul 2013 15:00:00 -0000
-
-
