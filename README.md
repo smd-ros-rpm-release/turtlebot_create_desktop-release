@@ -1,3 +1,25 @@
+## turtlebot_create_desktop (hydro) - 2.2.2-1
+
+The packages in the `turtlebot_create_desktop` repository were released into the `hydro` distro by running `/usr/bin/bloom-release turtlebot_create_desktop -t hydro -r hydro` on `Fri, 23 May 2014 02:20:13 -0000`
+
+These packages were released:
+- `create_dashboard`
+- `create_gazebo_plugins`
+- `turtlebot_create_desktop`
+
+Version of package(s) in repository `turtlebot_create_desktop`:
+- rosdistro version: `2.2.2-0`
+- old version: `2.2.2-0`
+- new version: `2.2.2-1`
+
+Versions of tools used:
+- bloom version: `0.5.9`
+- catkin_pkg version: `0.2.2`
+- rosdep version: `0.10.27`
+- rosdistro version: `0.3.5`
+- vcstools version: `0.1.35`
+
+
 ## turtlebot_create_desktop (hydro) - 2.2.2-0
 
 User `jihoonl@whoola` released the packages in the `turtlebot_create_desktop` repository into the `hydro` distro by running `/usr/bin/bloom-release turtlebot_create_desktop --track=hydro --rosdistro=hydro` on `Fri, 21 Mar 2014 01:59:37 -0000`
