@@ -2,15 +2,16 @@
 Changelog for package create_gazebo_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.2.2 (2014-03-21)
+2.3.0 (2014-12-01)
 ------------------
-* boost::shared_*_cast are deprecated, removed in boost 1.53
-* Contributors: Scott K Logan
-
-2.2.1 (2014-03-21)
-------------------
+* Update contact manager for Gazebo 2.0
+* add catkin_ignore due to the compile error. remove this when it is ready go
+* -Fix instantaneous odom getting computed, but not published (would alway publish 0 before)
+* Fix compilation on OS X (at least 10.9)
+  - without this, linking fails.
+* replace deprecated shared_dynamic_cast (fixes `#9 <https://github.com/turtlebot/turtlebot_create_desktop/issues/9>`_)
 * fixes gazebo header paths (refs `#7 <https://github.com/turtlebot/turtlebot_create_desktop/issues/7>`_)
-* Contributors: Marcus Liebhardt
+* Contributors: Jihoon Lee, Marcus Liebhardt, Nikolaus Demmel, Samir Benmendil, Stefan Kohlbrecher, trainman419
 
 2.2.0 (2013-08-30)
 ------------------
