@@ -1,3 +1,27 @@
+## turtlebot_create_desktop (indigo) - 2.3.0-0
+
+The packages in the `turtlebot_create_desktop` repository were released into the `indigo` distro by running `/usr/bin/bloom-release turtlebot_create_desktop -t indigo -r indigo --new-track` on `Mon, 01 Dec 2014 01:35:11 -0000`
+
+These packages were released:
+- `create_dashboard`
+- `create_gazebo_plugins`
+- `turtlebot_create_desktop`
+
+Version of package(s) in repository `turtlebot_create_desktop`:
+- upstream repository: https://github.com/turtlebot/turtlebot_create_desktop.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `2.3.0-0`
+
+Versions of tools used:
+- bloom version: `0.5.14`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.10.33`
+- rosdistro version: `0.3.6`
+- vcstools version: `0.1.35`
+
+
 ## turtlebot_create_desktop (hydro) - 2.2.2-1
 
 The packages in the `turtlebot_create_desktop` repository were released into the `hydro` distro by running `/usr/bin/bloom-release turtlebot_create_desktop -t hydro -r hydro` on `Fri, 23 May 2014 02:20:13 -0000`
